@@ -1,0 +1,11 @@
+version: '3'
+services:
+    quasar:
+        build:
+            context: .
+        command: /bin/bash
+        tty: true
+        volumes:
+            - .:/mnt
+        ports:
+            - "8080:8080"
