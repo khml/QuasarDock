@@ -7,5 +7,6 @@ services:
         tty: true
         volumes:
             - .:/mnt
+        working_dir: /mnt
         ports:
             - "8080:8080"
