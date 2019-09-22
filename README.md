@@ -9,14 +9,18 @@ Docker files for [Quasar](https://quasar.dev/).
 
 ```
 # Clone this repository
-$ git clone https://github.com/khml/QuasarDock.git
+$ git clone https://github.com/khml/QuasarDock.git yourAppName
 
-$ cd QuasarDock
+# delete QuasarDock's git folder
+$ cd yourAppName && rm -rf .git
 
-# Initialize Quasar App Project
-$ ./new.sh YourAppName
+# Initialize Quasar App Project.
+$ ./new.sh
 
 # Compose up a container
 $ docker-compose up -d
+
+# Open in Browser
+http://localhost:8080/#/
 
 ```

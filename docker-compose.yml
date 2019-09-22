@@ -3,7 +3,7 @@ services:
     quasar:
         build:
             context: .
-        command: /bin/bash
+        command: quasar dev
         tty: true
         volumes:
             - .:/mnt
