@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker-compose run quasar quasar create .
+docker-compose run --rm quasar quasar create .
 
