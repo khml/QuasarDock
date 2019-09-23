@@ -4,6 +4,7 @@ services:
         build:
             context: ./QuasarDock
             dockerfile: Dockerfile.Quasar
+        image: quasardock/quasardock
         command: quasar dev
         tty: true
         volumes:
