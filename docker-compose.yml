@@ -2,7 +2,8 @@ version: '3'
 services:
     quasar:
         build:
-            context: .
+            context: ./QuasarDock
+            dockerfile: Dockerfile.Quasar
         command: quasar dev
         tty: true
         volumes:

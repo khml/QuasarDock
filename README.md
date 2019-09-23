@@ -15,12 +15,12 @@ $ git clone https://github.com/khml/QuasarDock.git yourAppName
 $ cd yourAppName && rm -rf .git
 
 # Initialize Quasar App Project.
-$ ./new.sh
+$ ./quasar_create.sh
 
 # Compose up a container
 $ docker-compose up -d
 
 # Open in Browser
-http://localhost:8080/#/
+http://localhost:8080/
 
 ```
