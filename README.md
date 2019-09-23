@@ -21,6 +21,6 @@ $ ./new.sh
 $ docker-compose up -d
 
 # Open in Browser
-http://localhost:8080/#/
+http://localhost:8080/
 
 ```
