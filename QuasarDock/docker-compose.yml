@@ -2,13 +2,13 @@ version: '3'
 services:
     quasar:
         build:
-            context: ./QuasarDock
+            context: ./
             dockerfile: Dockerfile.Quasar
         image: quasardock/quasardock
         command: quasar dev
         tty: true
         volumes:
-            - .:/mnt
+            - ..:/mnt
         working_dir: /mnt
         ports:
             - "8080:8080"
