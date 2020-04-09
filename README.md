@@ -14,11 +14,11 @@ $ git clone https://github.com/khml/QuasarDock.git yourAppName
 # delete QuasarDock's git folder
 $ cd yourAppName && rm -rf .git
 
-# Initialize Quasar App Project.
-$ ./quasar_create.sh
+# Initialize Quasar App Project, build image.
+$ cd ./QuasarDoc/quasar_create.sh
 
 # Compose up a container
-$ docker-compose up -d
+$ cd QuasarDock && docker-compose up -d
 
 # Open in Browser
 http://localhost:8080/
