@@ -15,7 +15,7 @@ $ git clone https://github.com/khml/QuasarDock.git yourAppName
 $ cd yourAppName && rm -rf .git
 
 # Initialize Quasar App Project, build image.
-$ cd ./QuasarDoc/quasar_create.sh
+$ ./QuasarDoc/quasar_create.sh
 
 # Compose up a container
 $ cd QuasarDock && docker-compose up -d
